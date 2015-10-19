@@ -34,6 +34,28 @@ import java.util.Scanner;
 		//		System.out.println (" ");
 		//	}
 			}
+//		public static void runSatPix(String inputfileName, String outputFileName)
+//		{
+//			boolean[][] booleanArr = fileToBoolArray(inputFileName);
+//			int sizeOfLargestPasture=0;
+//			int currentPasture=0;
+//		    for (int i = 0; i<booleanArr.length-1; i++)
+//			{
+//				for (int j = 0; j<booleanArr[0].length-1; j++)
+//				{
+//					currentPasture = SatPix.recursivelyMeasureAndMarkPasture(i, j, booleanArr);
+//					if (currentPasture > sizeOfLargestPasture)
+//					{
+//						sizeOfLargestPasture = currentPasture;
+//					}
+//				}
+//			}
+//			System.out.println (sizeOfLargestPasture);
+//			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(outputFileName)));
+//		out.println(sizeOfLargestPasture);
+//		out.close();
+//			
+//		
 		
 	private static boolean[][] fileToBoolArray(String fileName) throws FileNotFoundException, IOException
 	{
